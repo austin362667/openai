@@ -29,7 +29,7 @@ import type {
   TranslationOptions,
 } from "./types.ts";
 
-const baseUrl = "https://api.openai.com/v1";
+const baseUrl = "https://api.openai.com/v1/chat";
 
 export class OpenAI {
   #privateKey: string;
